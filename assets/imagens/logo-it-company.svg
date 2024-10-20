@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Símbolo de Circuito -->
+  <path d="M10 50 L30 50 L30 30 L50 30 L50 50 L70 50 L70 70 L90 70 L90 50" 
+        fill="none" stroke="#40E0D0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Círculo representando um chip -->
+  <circle cx="50" cy="50" r="10" fill="#40E0D0"/>
+  
+  <!-- Pontos de conexão -->
+  <circle cx="10" cy="50" r="4" fill="#40E0D0"/>
+  <circle cx="90" cy="50" r="4" fill="#40E0D0"/>
+</svg>

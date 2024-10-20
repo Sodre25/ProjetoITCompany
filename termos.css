@@ -1,0 +1,112 @@
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Estilos do Header */
+header {
+  background-color: #ffffff; /* Cor de fundo clara para o cabeçalho */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
+}
+
+.navbar {
+  padding: 1rem 2rem; /* Espaçamento para a barra de navegação */
+}
+
+.navbar-brand {
+  font-weight: 600; /* Peso da fonte mais forte para o nome da marca */
+  color: #333; /* Cor azul padrão */
+}
+
+.nav-link {
+  color: #333; /* Cor dos links */
+  transition: color 0.3s, text-decoration 0.3s; /* Transições suaves */
+  font-weight: 500;
+  text-decoration: underline aqua; /* Remove sublinhado dos links */
+  font-size: 1.3rem;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.nav-link:hover {
+  color: aqua; /* Cor ao passar o mouse */
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+.btn-primary {
+  background-color: #ffffff; /* Cor de fundo do botão primário */
+  border: solid aqua 1px; /* Remove a borda padrão */
+  transition: background-color 0.3s; /* Transição suave na cor */
+  color: #333;
+  font-size: 1.3rem;
+}
+
+.btn-primary:hover {
+  background-color: aqua; /* Cor de fundo do botão ao passar o mouse */
+  font-weight: 500;
+  color: #333;
+}
+
+header h1 {
+  margin-left: 100px;
+  text-align: justify;
+}
+
+h2 {
+  color: #333;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: black;
+  opacity: 0.8;
+}
+
+.footer ul.footer-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer ul.footer-list li {
+  margin-bottom: 0.5rem;
+}
+
+.footer ul.footer-list li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer ul.footer-list li a:hover {
+  text-decoration: underline;
+}
+
+.footer .footer-rights {
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer .bi {
+  font-size: 1.2rem;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.footer .footer-list.d-flex {
+  gap: 15px;
+}
